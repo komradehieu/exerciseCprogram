@@ -1,0 +1,52 @@
+
+
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+#include <math.h>
+
+main()
+
+{
+
+    char HT[30];
+    int namsinh;
+    float cc, kt, thi,dtk ;
+
+    printf("dit con me may co nhap ho ten khong:");
+    scanf("%s",HT);
+
+    printf("dit con me may co nhap nam sinh khong:");
+    scanf("%d",&namsinh);
+
+    printf("dit con me may nhap chuyen can, kiem tra, thi vao nhanh:");
+    scanf("%f %f %f",&cc, &kt,&thi);
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+cho biết các thông tin sau đây của 1 cb trong cq
+
+1 . tên
+2 . gt
+3. đv ct
+4. hệ số lương
+5. thưởng
+6. bảo hiểm
+
+y/c viết ct thực hiện các chức năng sau:
+- khai báo & nhập data
+- tính tiền đc lĩnh của cb biết rằng tiền đc lĩnh = hệ số lương x 2 triệu + thưởng - bảo hiểm
+- in thông tin sau : tên - sex- tiền đc lĩnh
+
+
