@@ -34,3 +34,117 @@ int main()
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bai hoan chinh
+
+
+
+
+
+
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+
+{
+
+    char HoTen[30];
+    int NamSinh;
+    char DonViCongTac[30];
+    char GioiTinh[3];
+    float HeSoLuong, Thuong, BaoHiem;
+
+
+    printf("\n---------------------------------------------------------------------");
+
+    printf("\nNhap ho ten cua can bo:");
+    //scanf(" %s %s %s", Ho, Dem, Ten);
+    fflush(stdin);
+    gets(HoTen);
+    printf("Ho ten cua can bo la: %s",HoTen);
+
+    printf("\n---------------------------------------------------------------------");
+    printf("\nNhap nam sinh cua can bo:");
+    scanf("%d",NamSinh);
+    printf("\n---------------------------------------------------------------------");
+    printf("\nNhap gioi tinh cua can bo(Nu la 1/ Nam nhap ki tu bat ki):");
+
+    //scanf(" %s %s %s", Ho, Dem, Ten);
+
+    scanf("%s",GioiTinh);
+
+
+    if(GioiTinh=='1'){
+        printf("\nGioi tinh cua can bo la Nam",GioiTinh);
+    }else{
+        printf("\nGioi tinh cua can bo la nu",GioiTinh);
+    }
+   // printf("Ho ten cua can bo la: %s",HoTen);
+
+
+
+
+
+
+    printf("\n---------------------------------------------------------------------");
+
+
+
+
+
+
+
+
+
+    printf("\n---------------------------------------------------------------------");
+
+
+
+
+
+
+
+
+
+
+    printf("\n---------------------------------------------------------------------");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
