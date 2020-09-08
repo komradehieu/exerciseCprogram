@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+
+{
+    char Ho[10];
+    char Dem[10];
+    char Ten[10];
+    char HoTen[30];
+    int NamSinh;
+    char DonViCongTac[30];
+    float HeSoLuong, Thuong, BaoHiem;
+
+
+    printf("---------------------------------------------------------------------");
+
+    printf("\nNhap ho ten cua can bo(nho nhap dau cach truoc khi viet ho ten):");
+    //scanf(" %s %s %s", Ho, Dem, Ten);
+    fflush(stdin);      //them dong nay moi dung dc gets()
+    gets(HoTen);
+    printf("%s",HoTen);
+
+
+
+    //printf("\Ho ten cua can bo: %s %s %s", Ho, Dem, Ten);
+
+
+
+
+
+
+}
