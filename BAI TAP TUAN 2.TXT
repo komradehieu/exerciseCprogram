@@ -4,6 +4,9 @@ yêu cầu : tính tiền hoa hồng của nhân viên thu đc biết rằng
     + NẾU DOANH THU ANH TA > 10 TRIỆU THÌ HOA HỒNG NHẬN ĐC LÀ 10 PHẦN TRĂM CỦA DOANH SỐ
     + NGƯỢC LẠI KHÔNG CÓ HOA HỒNG
     
+    
+    
+    
 B2 - Nhập vào doanh số của 1 nv kd, loại sản phẩm anh ta bán ( nhập bằng 1 kí tự )
     + TÍNH HOA HỒNG MÀ NHÂN VIÊN ĐÓA THU ĐC
         . NẾU DOANH SỐ >=10TR VÀ SP LÀ LOẠI A THÌ HOA HỒNG 10%
@@ -49,4 +52,23 @@ int main()
 
 
 }
+
+
+
+
+
+
+switch (thang)
+{
+
+
+
+
+    case 1: printf("thang co 31 ngay")
+    case 3: printf("thang co 31 ngay")
+    case 5: printf("thang co 31 ngay")
+    case 7: printf("thang co 31 ngay")
+    case 8: printf("thang co 31 ngay")
+    case 10: printf("thang co 31 ngay")
+    case 12: printf("thang co 31 ngay")
 
