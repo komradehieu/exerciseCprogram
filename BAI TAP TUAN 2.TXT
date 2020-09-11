@@ -9,3 +9,44 @@ B2 - Nhập vào doanh số của 1 nv kd, loại sản phẩm anh ta bán ( nh�
         . NẾU DOANH SỐ >=10TR VÀ SP LÀ LOẠI A THÌ HOA HỒNG 10%
         . ------------------------SP KO PHẢI LÀ LOẠI A THÌ HOA HỒNG 8%
         .--------------< 10 TR THÌ HOA HỒNG LÀ 5%
+        
+  bai lam B2
+  
+  
+  
+  #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <conio.h>
+
+int main()
+{   float DoanhSo;
+    char loaisp[1];
+    float HoaHong;
+
+    printf("\n Nhap vao doanh so cua nhan vien kinh doanh:");
+    scanf("%f",&DoanhSo);
+
+    printf("\n Nhap vao loai san pham ma nhan vien kinh doanh da ban duoc:");
+    scanf("%s",loaisp);
+
+    if ((loaisp=='a') && (DoanhSo>=10000000))
+    {
+        HoaHong=DoanhSo*0.1;
+    }
+    else if ((loaisp=='b') && (DoanhSo>=10000000))
+    {
+        HoaHong=DoanhSo*0.08;
+    }
+    else
+    {
+        HoaHong=DoanhSo*0.05;
+    }
+
+    printf("\n Tien hoa hong cua nhan vien do la %10.0f vnd",HoaHong);
+
+
+
+
+}
+
