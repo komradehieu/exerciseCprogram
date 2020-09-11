@@ -1,11 +1,11 @@
-B1 - nhập vào doanh số của 1 nhân viên kinh doanh
+B1 - nhập vào doanh số của 1 nhân viên kinh doanh *BTVN
 
 yêu cầu : tính tiền hoa hồng của nhân viên thu đc biết rằng 
     + NẾU DOANH THU ANH TA > 10 TRIỆU THÌ HOA HỒNG NHẬN ĐC LÀ 10 PHẦN TRĂM CỦA DOANH SỐ
     + NGƯỢC LẠI KHÔNG CÓ HOA HỒNG
     
     
-    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------    
     
 B2 - Nhập vào doanh số của 1 nv kd, loại sản phẩm anh ta bán ( nhập bằng 1 kí tự )
     + TÍNH HOA HỒNG MÀ NHÂN VIÊN ĐÓA THU ĐC
@@ -55,6 +55,12 @@ int main()
 
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+b4 - Nhập vào 1 số nguyên trong khoảng 1- 12 là giá trị của các tháng trong năm - BTVN
+
+    + viết ct in ra số ngày tháng đó
+    
 
 
 
