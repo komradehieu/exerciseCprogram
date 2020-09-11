@@ -86,7 +86,7 @@ int main()
     }else if(GioiTinh== 2)
 
         printf("\n++ Gioi tinh cua can bo la Nam \n",GioiTinh);
-        else printf("++ Gioi tinh cua can bo la : dit con me thang gay!!!");
+        else printf("++ Gioi tinh cua can bo la : khong co gioi tinh phu hop!!!");
 
         printf("\n\n++ Don vi cong tac cua can bo la: %s \n",DonViCongTac);
 
