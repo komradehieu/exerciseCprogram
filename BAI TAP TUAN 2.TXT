@@ -7,5 +7,5 @@ yêu cầu : tính tiền hoa hồng của nhân viên thu đc biết rằng
 B2 - Nhập vào doanh số của 1 nv kd, loại sản phẩm anh ta bán ( nhập bằng 1 kí tự )
     + TÍNH HOA HỒNG MÀ NHÂN VIÊN ĐÓA THU ĐC
         . NẾU DOANH SỐ >=10TR VÀ SP LÀ LOẠI A THÌ HOA HỒNG 10%
-        . ------------------------SP KO PẢI LÀ LOẠI B THÌ HOA HỒNG 8%
+        . ------------------------SP KO PHẢI LÀ LOẠI A THÌ HOA HỒNG 8%
         .--------------< 10 TR THÌ HOA HỒNG LÀ 5%
