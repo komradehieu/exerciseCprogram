@@ -9,7 +9,19 @@ cho 1 dãy số nguyên gồm n phần tử với n nguyên dương và nhập �
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#include <stdio.h>
+int main()
+{
 
+int A[10];
+int i, n;
 
+printf("\nNhap so phan tu cua day\n");
+scanf("%d",&int);
+printf("---------------------------------");
 
-int A[]
+for(i=1; i<=n; i
+printf("cho biet phan tu thu %d:",i);
+scanf("%d", &A[i]);
+
+}
