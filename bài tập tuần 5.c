@@ -54,6 +54,9 @@ printf("---------------------------------");
          z  z  z
 3. tìm phần tử lớn nhất của ma trận đã nhập ( 2 vl lồng nhau)
 4. tính tổng các phần tử nằm trên đường chéo chính của ma trận ( phần tử có dạng Aii) ( ma trận vuông mới tính)
+5. nhập ma trận b cùng cấp với a
+6. in ma trận b
+7. tính và in ma trận c = A + B
 ---------------------------------------------------------------------------------------------------------------------------
          
   
