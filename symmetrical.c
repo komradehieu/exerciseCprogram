@@ -45,3 +45,38 @@ int main()
 	return 0;
 }
 //bachieu
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+// nhớ đổi hết tiếng việt về không dấu
+
+void count_vowel(char* hieu)
+{
+    int NguyenAm = 0;
+    int i;
+    char ch;
+    for(i=0; hieu[i]!='\0';i++)
+    {
+        ch = hieu[i];
+        if    (ch == 'a' || ch == 'e'|| ch == 'i' || ch == 'o'|| ch == 'u' || ch == 'A'|| ch == 'E' || ch == 'I'|| ch == 'O' || ch == 'U')
+        {
+            NguyenAm++;
+        }
+    }
+    printf("\n\nSố nguyên âm trong chuỗi ''%s'' bạn đã nhập là : %d\n\n",hieu,NguyenAm);
+}
+int main()
+{   char* hieu[1000];
+    int NguyenAm = 0;
+    int i;
+    char ch;
+    printf("Chuỗi bạn cần nhập: ");
+    fflush(stdin);
+    gets(hieu);
+    count_vowel(hieu);
+    printf("\n\n\n\n\n\n\n\n\ ►Hiếu◄  \n\n\n");
+
+
+}
